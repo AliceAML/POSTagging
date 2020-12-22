@@ -19,7 +19,7 @@ La séance du 2020-12-10 a été consacrée (en partie) à une description plus 
 
 ## Jeux de données
 
-Les développements se feront sur le corpus [French-GSD]'https://universaldependencies.org/treebanks/fr_gsd/index.html) disponible sur le site du projet Universal Dependencies (qui sera considéré comme le corpus in-domain).
+Les développements se feront sur le corpus [French-GSD](https://universaldependencies.org/treebanks/fr_gsd/index.html) disponible sur le site du projet Universal Dependencies (qui sera considéré comme le corpus in-domain).
 Pour les évaluations hors-domaine, on considérera les corpus de test issues des deux treebanks :
 - [Old_French-SRCMF](https://universaldependencies.org/treebanks/fro_srcmf/index.html), du projet Universal Dependencies
 - [French Spoken](https://universaldependencies.org/treebanks/fr_spoken/index.html), du projet Universal Dependencies
