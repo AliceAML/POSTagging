@@ -6,7 +6,7 @@ L'objectif du projet est de développer classifieur statistique capable de préd
 ## Travail à effectuer
 Certains points seront précisés au fur et à mesure des dernières séances de TP. Les points pouvant déjà être traités sont précédés d'une astérisque
 
-- [ ] Développement d'un classifieur multiclasse (régression logistique, perceptron ou SVM). Votre classifieur devra (à minima) implémenter une méthode fit capable d'estimer les paramètres du modèle à partir d'un ensemble d'apprentissage et une méthode predict qui retournera l'étiquette d'une observation
+- [x] Développement d'un classifieur multiclasse (régression logistique, perceptron ou SVM). Votre classifieur devra (à minima) implémenter une méthode fit capable d'estimer les paramètres du modèle à partir d'un ensemble d'apprentissage et une méthode predict qui retournera l'étiquette d'une observation
 - [x] Extraction des caractéristiques pour le PoS tagging. Les caractéristiques généralement utilisées sont le mot, le mot précédent, le mot suivant, la présence de certains préfixes, la présence de lettre en majuscule ; vous êtes libres de définir toutes les caractéristiques vous semblant pertinentes.
 - [ ] Évaluation des performances du classifieur et des erreurs fréquentes. On distinguera notamment les performances obtenus sur les mots vue en apprentissage et sur les mots n'apparaissant qu'en test (mot hors vocabulaire).
 - [ ] Évaluation de votre PoS tagger sur des données hors-domaine
