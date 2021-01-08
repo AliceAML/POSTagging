@@ -29,8 +29,7 @@ def perceptron_train(training_set, MAX_EPOCH=3):
         for word in shuffled_set:
             n_update += 1 # on compte le nb de mots déjà vus
 
-            vec = word[0]
-            gold = word[1]
+            vec, gold = word
             prediction = predict(vec, w) # trouve étiquette plus probable avec les poids w
 
             if not prediction == gold: # si le gold_label n'est pas égal à celui prédit
@@ -40,15 +39,16 @@ def perceptron_train(training_set, MAX_EPOCH=3):
 
                     # on met à jour a : ajout de l'ancienne valeur dans w * le nombre de fois où elle n'a pas été modifiée
                     a[gold][feat] = a[gold].get(feat, 0) + w[gold].get(feat,0)*(n_update-last_update[gold].get(feat,0))
-                    a[prediction][feat] = a[prediction].get(feat, 0) + w[prediction].get(feat,0)*(n_update-last_update[gold].get(feat, 0))
+                    a[prediction][feat] = a[prediction].get(feat, 0) + w[prediction].get(feat,0)*(n_update-last_update[prediction].get(feat, 0))
+                     # on modifie le dernier update de l'élément du vecteur
+                    last_update[gold][feat] = n_update
+                    last_update[prediction][feat] = n_update
 
                     # on modifie les poids de w pour les 2 étiquettes concernées
                     w[gold][feat] = w[gold].get(feat,0) + vec.get(feat) #  on ajoute x_i à chaque poids de l'étiquette correcte
                     w[prediction][feat] = w[prediction].get(feat,0) - vec[feat] #  on retire x_i à chaque poids de l'étiquette mal prédite
 
-                    # on modifie le dernier update de l'élément du vecteur
-                    last_update[gold][feat] = n_update
-                    last_update[prediction][feat] = n_update
+                   
 
     # mise à jour finale tous les poids qui n'ont pas été modifiés lors de la dernière update
     for tag in a:
