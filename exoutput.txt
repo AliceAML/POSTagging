@@ -20,8 +20,8 @@ PROPN au lieu de NOUN : {'mot - casino': 1, 'prec - le': 1, 'mot_suiv - le': 1, 
 PROPN au lieu de X : {'mot - claude': 1, 'prec - with': 1, 'mot_suiv - )': 1, 'maj': 1, 'long': 1}
 
 
-NOUN au lieu de PROPN : {'mot - journal': 1, 'prec - le': 1, 'mot_suiv - de': 1, 'maj': 1, 'long': 1, 'suff_adj': 1} | la PROPN : 4071351 | maj PROPN : 15375584 | le PROPN : 4298739
-NOUN au lieu de PROPN : {'mot - journal': 1, 'prec - le': 1, 'mot_suiv - de': 1, 'maj': 1, 'long': 1, 'suff_adj': 1} | la NOUN : 11156899 | maj NOUN : -3346722  | le NOUN : 10956844
+NOUN au lieu de PROPN : {'mot - journal': 1, 'prec - le': 1, 'mot_suiv - de': 1, 'maj': 1, 'long': 1, 'suff_adj': 1} | journal PROPN : -3148853 | maj PROPN: 8826140 | le PROPN: 2183253
+NOUN au lieu de PROPN : {'mot - journal': 1, 'prec - le': 1, 'mot_suiv - de': 1, 'maj': 1, 'long': 1, 'suff_adj': 1} | journal NOUN : 4387910  | maj NOUN: -1999345 | le NOUN: 5925283
 --> poids NOUN > poids PROPN 
 
 
