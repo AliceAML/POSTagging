@@ -1,0 +1,45 @@
+MEME DOMAINE - Exemples de confusions :
+
+DET au lieu de PRON : {'mot - le': 1, 'prec - et': 1, 'mot_suiv - remercie': 1, 'court': 1}
+AUX au lieu de VERB : {'mot - est': 1, "prec - n'": 1, 'mot_suiv - même': 1, 'court': 1}
+
+VERB au lieu de ADJ : {'mot - passionné': 1, 'prec - artisan': 1, 'mot_suiv - .': 1, 'long': 1, 'suff_adj': 1}
+VERB au lieu de AUX : {'mot - aura': 1, "prec - n'": 1, 'mot_suiv - pas': 1, 'long': 1}
+VERB au lieu de NOUN : {'mot - représentant': 1, 'prec - ,': 1, 'mot_suiv - du': 1, 'long': 1}
+
+ADJ au lieu de VERB : {'mot - supervisé': 1, 'prec - apprentissage': 1, 'mot_suiv - (': 1, 'long': 1, 'suff_adj': 1}
+ADJ au lieu de NOUN : {'mot - passagers': 1, 'prec - trafic': 1, 'mot_suiv - (': 1, 'long': 1, 'suff_noun': 1, 'suff_adj': 1}
+ADJ au lieu de PROPN : {'mot - noire': 1, 'prec - mer': 1, 'mot_suiv - contre': 1, 'maj': 1, 'long': 1, 'suff_noun': 1}
+
+NOUN au lieu de ADJ : {'mot - particulier': 1, 'prec - en': 1, 'mot_suiv - le': 1, 'long': 1, 'suff_noun': 1, 'suff_adj': 1}
+NOUN au lieu de VERB : {'mot - introduisant': 1, 'prec - en': 1, 'mot_suiv - des': 1, 'long': 1}
+NOUN au lieu de PROPN : {'mot - chapelle': 1, 'prec - la': 1, 'mot_suiv - en': 1, 'maj': 1, 'long': 1, 'suff_noun': 1, 'suff_adj': 1}
+
+PROPN au lieu de ADJ : {'mot - navigables': 1, 'prec - voies': 1, 'mot_suiv - de': 1, 'maj': 1, 'long': 1, 'suff_adj': 1}
+PROPN au lieu de NOUN : {'mot - casino': 1, 'prec - le': 1, 'mot_suiv - le': 1, 'maj': 1, 'long': 1}
+PROPN au lieu de X : {'mot - claude': 1, 'prec - with': 1, 'mot_suiv - )': 1, 'maj': 1, 'long': 1}
+
+
+NOUN au lieu de PROPN : {'mot - journal': 1, 'prec - le': 1, 'mot_suiv - de': 1, 'maj': 1, 'long': 1, 'suff_adj': 1} | la PROPN : 4071351 | maj PROPN : 15375584 | le PROPN : 4298739
+NOUN au lieu de PROPN : {'mot - journal': 1, 'prec - le': 1, 'mot_suiv - de': 1, 'maj': 1, 'long': 1, 'suff_adj': 1} | la NOUN : 11156899 | maj NOUN : -3346722  | le NOUN : 10956844
+--> poids NOUN > poids PROPN 
+
+
+CORPUS ORAL - Exemples de confusion :
+
+VERB au lieu de INTJ : {'mot - euh': 1, 'prec - sellerie': 1, 'mot_suiv - avec': 1, 'court': 1}
+NOUN au lieu de INTJ : {'mot - euh': 1, 'prec - avec': 1, 'mot_suiv - end': 1, 'court': 1}
+NOUN au lieu de INTJ : {'mot - hein': 1, 'prec - même': 1, 'mot_suiv - non': 1, 'long': 1, 'suff_noun': 1, 'suff_adj': 1}
+ADJ au lieu de INTJ : {'mot - bon': 1, 'prec - teintes': 1, 'mot_suiv - faut': 1, 'court': 1, 'suff_noun': 1}
+ADJ au lieu de INTJ : {'mot - euh': 1, 'prec - base': 1, 'mot_suiv - pff': 1, 'court': 1}
+X au lieu de INTJ : {'mot - euh': 1, 'prec - saint-jean-de-maurienne': 1, 'mot_suiv - où': 1, 'court': 1}
+X au lieu de INTJ : {'mot - oui': 1, 'prec - euh': 1, 'mot_suiv - end': 1, 'court': 1}
+PRON au lieu de INTJ : {'mot - quoi': 1, 'prec - timsit': 1, 'mot_suiv - end': 1, 'long': 1}
+
+ADV au lieu de SCONJ : {'mot - parce': 1, 'prec - marrant': 1, 'mot_suiv - que': 1, 'long': 1}
+
+
+CORPUS VIEUX FRANCAIS - Exemples de confusion :
+
+ADJ au lieu de VERB : {'mot - derumpet': 1, 'prec - sue': 1, 'mot_suiv - end': 1, 'long': 1, 'suff_noun': 1}
+ADJ au lieu de NOUN : {'mot - hume': 1, 'prec - savie': 1, 'mot_suiv - end': 1, 'long': 1}
