@@ -1,4 +1,5 @@
 # POSTagging
+Projet réalisé en binôme en décembre 2020 (premier semestre de M1 Linguistique et Informatique à l'Université de Paris)
 
 ## Objectif
 L'objectif du projet est de développer classifieur statistique capable de prédire les PoS d'une phrase.
