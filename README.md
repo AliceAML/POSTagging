@@ -3,6 +3,8 @@ This project was carried out in January 2020 in a two-person team, at the end of
 
 The projet is a POS tagger based on a perceptron implemented from scratch using Python dictionaries rather than np arrays (we have since moved on to using np arrays and sklearn). It runs on CoNLL-style files.
 
+We obtained 95% accuracy on in-domain corpora and detailed our analysis of the model (confusion matrix, out-domain corpora, etc.) in a report.
+
 
 
 
